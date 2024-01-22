@@ -1,7 +1,7 @@
 body{
     background-color:white;
     color:black;
-    font-family:Arial;
+    
   }
   .title{
     font-size:30px;
@@ -40,6 +40,11 @@ body{
   .reset-button:hover{
     background: rgb(53,53,53);
     color:white;
+  }
+  .container{
+    display:flex;
+    align-items:center;
+    justify-content: center;
   }
  
  
