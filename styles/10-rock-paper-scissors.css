@@ -23,6 +23,12 @@ body{
     margin-right:10px;
     cursor:pointer;
   }
+
+  .move-button:hover{
+    background: rgb(53,53,53);
+    
+  }
+
   .result{
     font-size: 25px;
     font-weight: bold;
