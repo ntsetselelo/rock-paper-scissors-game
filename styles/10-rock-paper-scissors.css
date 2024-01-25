@@ -15,7 +15,7 @@ body{
   }
   .move-button{
     background-color:transparent;
-    border:rgb(53,53,53) 0.1rem solid;
+    border:rgb(96, 93, 93) 0.1rem solid;
     
     width:120px;
     height:120px;
@@ -25,7 +25,7 @@ body{
   }
 
   .move-button:hover{
-    background: rgb(53,53,53);
+    background: rgb(141, 138, 138);
     
   }
 
@@ -35,22 +35,49 @@ body{
     margin-top:50px;
 
   }
-  .reset-button{
-    margin-top:30px;
-    border:rgb(53,53,53) 0.1rem solid;
-    cursor:pointer;
-    padding:5px;
-    border-radius:15px;
+  .moves{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .score{
+    font-size: 20px;
+    font-weight:normal;
 
   }
+  .reset-button{
+    margin-top:30px;
+    border:rgb(206, 13, 13) 0.1rem solid;
+    cursor:pointer;
+    padding:10px;
+    border-radius:25px;
+    font-weight: bold;
+    background-color:white;
+    color:black;
+    
+  }
   .reset-button:hover{
-    background: rgb(53,53,53);
-    color:white;
+    background: rgba(255, 0, 0, 0.691);
+    color:black;
   }
   .container{
     display:flex;
     align-items:center;
     justify-content: center;
   }
- 
- 
+  @media screen and (max-width: 600px){
+    .titled{
+        margin-top:50px;
+    }
+    .buttons{
+      margin-top:50px;
+    }
+    .result{
+      margin-top:50px;
+    }
+    .moves{
+      margin-top:50px;
+    }
+    .score{
+      margin-top:50px;
+    }
+  }

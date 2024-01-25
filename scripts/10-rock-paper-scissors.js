@@ -76,6 +76,12 @@ function updateScoreElement(){
   document.querySelector('.js-score')
   .innerHTML = `Wins: ${score.Wins}, losses: ${score.Losses}, Ties: ${score.Ties}`
 }
+function resetbutton(){
+  document.querySelector('.js-moves')
+    .innerHTML = "you vs computer"
+  document.querySelector('.js-result')
+  .innerHTML = "results"
+}
 
 function pickComputermove(){
   let computerMove = '';
