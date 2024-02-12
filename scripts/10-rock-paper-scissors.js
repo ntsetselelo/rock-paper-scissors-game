@@ -67,8 +67,6 @@ class = "move-icon">
 class = "move-icon">
 computer`;
 
-   
-    
 
 }
 

@@ -4,30 +4,33 @@ body{
     
   }
   .title{
-    font-size:30px;
+    margin-left:0;
+    font-size:15px;
     font-weight:bold;
     margin-top:50px;
+    color:blue;
   }
   .move-icon{
     height:50px;
+    transition: transform 0.5s;
+  }
+  .move-icon:hover{
+    color:blue;
+    transform:translateY(-50px);
     
-
   }
   .move-button{
     background-color:transparent;
-    border:rgb(96, 93, 93) 0.1rem solid;
+    border:none;
     
     width:120px;
     height:120px;
     border-radius:60px;
     margin-right:10px;
     cursor:pointer;
+    transition: transform 0.5s;
   }
 
-  .move-button:hover{
-    background: rgb(141, 138, 138);
-    
-  }
 
   .result{
     font-size: 25px;
@@ -51,18 +54,19 @@ body{
     padding:10px;
     border-radius:25px;
     font-weight: bold;
-    background-color:white;
-    color:black;
+    background-color:red;
+    color:white;
     
   }
   .reset-button:hover{
-    background: rgba(255, 0, 0, 0.691);
+    background: white;
     color:black;
   }
   .container{
     display:flex;
     align-items:center;
     justify-content: center;
+    margin-left: 0;
   }
   @media screen and (max-width: 600px){
     .titled{
